@@ -50,6 +50,7 @@ h2 {
 
 .panel.active h2 {
     opacity: 1;
+    transition: opacity 0.3s ease-in 0.4s;
 }
 
 @media(max-width: 480px) {
