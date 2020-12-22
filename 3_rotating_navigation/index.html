@@ -10,10 +10,38 @@
     <link rel="stylesheet" href="style.css">
     <!-- Font Awesome CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
-    <title>Project Title</title>
+    <title>Rotating Navigation</title>
 </head>
 <body>
-    <h1>Project</h1>
+    <div class="container">
+        <div class="circle-container">
+            <div class="circle">
+                <button id="close">
+                    <i class="fas fa-times"></i>
+                </button>
+                <button id="open">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+        <div class="content">
+            <h1>Amazing article</h1>
+            <small>Florin Pop</small>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+            <h3>My dog</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, atque quo eius, dolor repudiandae adipisci unde illum iure incidunt vitae maiores possimus dolores, sit accusamus nam numquam laborum delectus aut earum beatae reiciendis a deleniti! Reiciendis iste illum repellat optio modi mollitia ipsa blanditiis aliquid rem cumque aspernatur fuga officia, soluta dicta explicabo ipsum laborum. Tenetur aliquam similique et rem perferendis? Labore laboriosam sed debitis. Totam tempore illum iste porro libero tenetur est, sit velit.
+            </p>
+        </div>
+    </div>
+
+    <nav>
+        <ul>
+            <li><i class="fas fa-home"></i> Home</li>
+            <li><i class="fas fa-user-alt"></i> About</li>
+            <li><i class="fas fa-envelope"></i> Contact</li>
+        </ul>
+    </nav>
     
     <script src="script.js" defer></script>
 </body>
