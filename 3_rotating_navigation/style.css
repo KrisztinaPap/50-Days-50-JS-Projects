@@ -45,6 +45,10 @@ h1, h2, h3 {
     transition: transform 0.5s linear;
 }
 
+.container.show-nav .circle {
+    transform: rotate(-70deg);
+}
+
 .circle button {
     position: absolute;
     cursor: pointer;
